@@ -2,3 +2,12 @@
 nav{
     display: flex; 
 }
+/* nav style */
+.nav-titel{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: 600;
+}
+.text-primary{
+    color: #fd6e0a;
+}
