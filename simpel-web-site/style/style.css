@@ -22,6 +22,7 @@ nav{
     font-family:'Times New Roman', Times, serif ;
     font-size: 32px;
     font-weight: 600;
+    margin-left: 121px;
 }
 .text-primary{
    color: #fd6e0a;
@@ -42,6 +43,7 @@ nav li a{
     font-size: 20px;
 }
 .btn-primary{
+    position: relative;
     background-color:  #fd6e0a;
     font-size: 20px;
     font-weight: 500;
@@ -52,13 +54,14 @@ nav li a{
 .section-titel{
     font-size: 35px;
     font-weight: 600;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 .section-description{
     font-size: 18px;
     font-weight: 500;
     color: rgb(30, 27, 27);
 }
+
 /* banner style */
 .banner{
     display: flex;
@@ -68,14 +71,18 @@ nav li a{
 }
 
 .banner-subtitel{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
 
 }
 .banner-titel{
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 58px;
+    font-weight: 900;
 
+}
+.banner-blog{
+    font-size: 30px;
+    font-weight: 500;
 }
 .banner-img{
     width: 580px;
@@ -106,7 +113,9 @@ main{
 .skills{
     margin-top: 20px;
     text-align: center;
-    border: 2px solid red;
+    border-radius: 5px;
+    box-shadow: 0px 5px 50px 0px #575655dc;
+    padding: 8px;
 }
 .section-titel{
     font-size: 45px;
@@ -115,11 +124,16 @@ main{
 .section-description{
     font-size: 24px;
     margin: 0 auto;
+    padding: 4px;
 
 }
 .skills-conteinar{
     display: flex;
     text-align: center;
     margin-top: 40px;
+    gap: 24px;
     
+}
+.skill-description{
+    padding: 0 auto;
 }
