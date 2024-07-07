@@ -137,3 +137,40 @@ main{
 .skill-description{
     padding: 0 auto;
 }
+
+/* resume section style  */
+.resume{
+    max-width: 800px;
+    margin-left: 175px;
+    margin-top: 50px;
+    padding: 0 auto;
+}
+.section-title{
+    font-size: 50px;
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.experience-title{
+    font-size: 20px;
+}
+.experience-sub-title{
+    font-size: 17px;
+    color: #727272;
+}
+.experience-description{
+    color: #757575;
+}
+.text-center{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+   margin-top: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
