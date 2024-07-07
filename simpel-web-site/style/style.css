@@ -1,13 +1,68 @@
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+    
+}
+
 /* nav style */
 nav{
-    display: flex; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 /* nav style */
 .nav-titel{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif ;
     font-size: 32px;
     font-weight: 600;
 }
 .text-primary{
     color: #fd6e0a;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none; 
+    margin-right: 50px;
+    
+  
+} 
+nav li a{
+    color: rgb(169, 229, 230);
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn-primary{
+    background-color:  #fd6e0a;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(183, 240, 240);
+    border: 2px solid #ae5515;
+    border-radius: 5px;
+}
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+
+}
+
+.banner-subtitel{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.banner-titel{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.banner-img{
+    width: 580px;
 }
