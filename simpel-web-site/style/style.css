@@ -83,15 +83,14 @@ nav li a{
 /* main widht */
 main{
     max-width: 1140px;
-    margin: 30px auto;
-
-   
+    margin: 30px auto; 
 }
+/* about conteinar */
 .about{
     background-color: #f0d8cac7;
     border-radius: 10px;
     text-align: center;
-    padding: 130px  150px;
+    padding: 130px  150px; 
 
 }
 .about-items{
@@ -102,4 +101,25 @@ main{
 .item-description{
     font-weight: 600;
 
+}
+/* skills section */
+.skills{
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid red;
+}
+.section-titel{
+    font-size: 45px;
+    font-weight: 500;
+}
+.section-description{
+    font-size: 24px;
+    margin: 0 auto;
+
+}
+.skills-conteinar{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    
 }
